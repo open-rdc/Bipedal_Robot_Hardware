@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "NUCLEO-STM32H755ZI")(type "KiCad")(uri "${KIPRJMOD}/symbol/NUCLEO-STM32H755ZI.kicad_sym")(options "")(descr ""))
+  (lib (name "stm32h7")(type "KiCad")(uri "C:/Users/yuu53/Projects/GitHub/Bipedal_Robot_Hardware/Circuit/Kicad/Libraries/symbols/stm32h7/stm32h7.kicad_sym")(options "")(descr ""))
+  (lib (name "rpi5")(type "KiCad")(uri "C:/Users/yuu53/Projects/GitHub/Bipedal_Robot_Hardware/Circuit/Kicad/Libraries/symbols/rpi5/rpi5.kicad_sym")(options "")(descr ""))
+  (lib (name "CAN_Transceiver")(type "KiCad")(uri "C:/Users/yuu53/Projects/GitHub/Bipedal_Robot_Hardware/Circuit/Kicad/Libraries/symbols/can_transceiver/CAN_Transceiver.kicad_sym")(options "")(descr ""))
+  (lib (name "DCDC_Converter")(type "KiCad")(uri "C:/Users/yuu53/Projects/GitHub/Bipedal_Robot_Hardware/Circuit/Kicad/Libraries/symbols/dcdc_converter/DCDC_Converter.kicad_sym")(options "")(descr ""))
+)
