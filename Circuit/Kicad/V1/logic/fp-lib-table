@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "CAN_rTransceiver")(type "KiCad")(uri "/home/note_debian/Projects/RDC_Bipedal/Bipedal_Robot_Hardware/Circuit/Kicad/Libraries/footprints/can_transceiver/CAN_rTransceiver.pretty")(options "")(descr ""))
+  (lib (name "DCDC_Converter")(type "KiCad")(uri "/home/note_debian/Projects/RDC_Bipedal/Bipedal_Robot_Hardware/Circuit/Kicad/Libraries/footprints/dcdc_converter/DCDC_Converter.pretty")(options "")(descr ""))
+  (lib (name "RPI5")(type "KiCad")(uri "/home/note_debian/Projects/RDC_Bipedal/Bipedal_Robot_Hardware/Circuit/Kicad/Libraries/footprints/rpi5/RPI5.pretty")(options "")(descr ""))
+)
