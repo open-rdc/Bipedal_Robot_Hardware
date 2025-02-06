@@ -1,4 +1,4 @@
-20921386447763208
+20923125279731237
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2423,6 +2423,13 @@ GRM188F11H104ZA01
 0
 CAN_Pheripheral
 GRM188R6YA106MA73
+
+
+0
+2
+0
+CAN_Pheripheral
+RK73B2ATTD472J
 
 
 0
