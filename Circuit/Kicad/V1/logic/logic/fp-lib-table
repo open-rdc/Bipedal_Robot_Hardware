@@ -1,7 +1,7 @@
 (fp_lib_table
   (lib (name "CAN_Pheripheral")(type "KiCad")(uri "/home/desk_debian/Projects/RDC_Bipedal/Hardwares/Circuit/Kicad/Libraries/footprints/can_transceiver/CAN_Pheripheral.pretty")(options "")(descr ""))
   (lib (name "CAN_Transceiver")(type "KiCad")(uri "/home/desk_debian/Projects/RDC_Bipedal/Hardwares/Circuit/Kicad/Libraries/footprints/can_transceiver/CAN_Transceiver.pretty")(options "")(descr ""))
-  (lib (name "DCDC_Converter")(type "KiCad")(uri "/home/desk_debian/Projects/RDC_Bipedal/Hardwares/Circuit/Kicad/Libraries/footprints/dcdc_converter/DCDC_Converter.pretty")(options "")(descr ""))
-  (lib (name "RPI5")(type "KiCad")(uri "/home/desk_debian/Projects/RDC_Bipedal/Hardwares/Circuit/Kicad/Libraries/footprints/rpi5/RPI5.pretty")(options "")(descr ""))
+  (lib (name "DCDC_Converter")(type "KiCad")(uri "C:/Users/yuu53/Projects/RDC_Bipedal/Bipedal_Robot_Hardware/Circuit/Kicad/Libraries/footprints/dcdc_converter/DCDC_Converter.pretty")(options "")(descr ""))
+  (lib (name "RPI5")(type "KiCad")(uri "C:/Users/yuu53/Projects/RDC_Bipedal/Bipedal_Robot_Hardware/Circuit/Kicad/Libraries/footprints/rpi5/RPI5.pretty")(options "")(descr ""))
   (lib (name "NUCLEO-STM32H7")(type "KiCad")(uri "/home/desk_debian/Projects/RDC_Bipedal/Hardwares/Circuit/Kicad/Libraries/footprints/stm32h7/NUCLEO-STM32H7.pretty")(options "")(descr ""))
 )
