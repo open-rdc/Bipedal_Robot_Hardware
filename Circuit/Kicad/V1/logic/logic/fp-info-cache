@@ -1,4 +1,4 @@
-20949305235563931
+20903998227250870
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -50546,34 +50546,6 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
-DCDC_Converter
-2MS1-T1-B4-VS2-Q-E-S
-
-
-0
-5
-3
-DCDC_Converter
-AE-MYMGK00506ERSR-5V0
-
-
-0
-12
-12
-DCDC_Converter
-EKI04036
-
-
-0
-3
-3
-DCDC_Converter
-M78A
-
-
-0
-3
-3
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -53528,6 +53500,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+G7EB-1A-E2_DC12
+RELAY_G7EB-1A-E2_OMR
+
+G7EB-1A-E2 DC12 
+0
+4
+4
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -78469,13 +78448,6 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
-RPI5
-RPI5_GIPO
-
-
-0
-40
-40
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -87559,6 +87531,20 @@ Varistor
 RV_Rect_V25S440P_L26.5mm_W8.2mm_P12.7mm
 Varistor, V25S440P, https://www.littelfuse.com/media?resourcetype=datasheets&itemid=b410c42c-51d1-460e-b1d9-d105d93c9679&filename=littelfuse-varistor-ultramov25s-datasheet
 varistor
+0
+2
+2
+XT30UPB-M
+XT30UPB-M
+
+
+0
+2
+2
+XT60_YELLOW
+AMASS_XT60PB-M
+
+
 0
 2
 2
