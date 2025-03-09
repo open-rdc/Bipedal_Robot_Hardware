@@ -14,12 +14,13 @@
       "vias": 1.0,
       "zones": 0.6
     },
+    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -40,6 +41,7 @@
       11,
       12,
       13,
+      14,
       15,
       16,
       17,
@@ -60,15 +62,13 @@
       33,
       34,
       35,
-      36,
-      39,
-      40
+      36
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "ffdffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "logic_circuit.kicad_prl",
+    "filename": "logic.kicad_prl",
     "version": 3
   },
   "project": {
