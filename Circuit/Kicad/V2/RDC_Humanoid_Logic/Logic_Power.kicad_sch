@@ -506,7 +506,7 @@
   (symbol (lib_id "power:GND") (at 111.76 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15b2fedf-4fd2-4a8a-9078-b788cddef0c1)
-    (property "Reference" "#PWR04" (at 111.76 139.7 0)
+    (property "Reference" "#PWR034" (at 111.76 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 138.43 0)
@@ -521,9 +521,6 @@
     (pin "1" (uuid f4d56c92-df1a-4fb2-b90a-e9724b616b55))
     (instances
       (project "RDC_Humanoid_Logic"
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
           (reference "#PWR034") (unit 1)
         )
@@ -560,9 +557,6 @@
     (pin "6" (uuid b0010aa2-ade0-42bb-ade0-550ebe543351))
     (instances
       (project "RDC_Humanoid_Logic"
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
-          (reference "to_RPI1") (unit 1)
-        )
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
           (reference "to_RPI1") (unit 1)
         )
@@ -599,9 +593,6 @@
     (pin "6" (uuid f6a5255d-3843-4096-b14c-5d39b2b1f101))
     (instances
       (project "RDC_Humanoid_Logic"
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
-          (reference "to_STM1") (unit 1)
-        )
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
           (reference "to_STM1") (unit 1)
         )
@@ -612,7 +603,7 @@
   (symbol (lib_id "power:GND") (at 109.22 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 903a96d6-8fb8-497c-8616-cc9b82e8a67b)
-    (property "Reference" "#PWR05" (at 109.22 68.58 0)
+    (property "Reference" "#PWR033" (at 109.22 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 67.31 0)
@@ -627,9 +618,6 @@
     (pin "1" (uuid eb0c2559-a5d4-4040-9ffc-b6bbc062fd2a))
     (instances
       (project "RDC_Humanoid_Logic"
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
-          (reference "#PWR05") (unit 1)
-        )
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
           (reference "#PWR033") (unit 1)
         )
@@ -640,7 +628,7 @@
   (symbol (lib_id "power:GND") (at 153.67 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96452e1a-417e-414b-b4bf-c138b26bf969)
-    (property "Reference" "#PWR07" (at 153.67 139.7 0)
+    (property "Reference" "#PWR037" (at 153.67 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 138.43 0)
@@ -655,9 +643,6 @@
     (pin "1" (uuid cfdd22a9-995d-4c66-87f4-025d28778217))
     (instances
       (project "RDC_Humanoid_Logic"
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
           (reference "#PWR037") (unit 1)
         )
@@ -685,9 +670,6 @@
     (pin "3" (uuid 83fc712a-7de5-4f3a-b8bb-eb1956678d8f))
     (instances
       (project "RDC_Humanoid_Logic"
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
-          (reference "for_PG1") (unit 1)
-        )
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
           (reference "for_PG1") (unit 1)
         )
@@ -698,7 +680,7 @@
   (symbol (lib_id "power:GND") (at 152.4 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae254143-a881-429a-aa65-1b1f729122f9)
-    (property "Reference" "#PWR06" (at 152.4 68.58 0)
+    (property "Reference" "#PWR036" (at 152.4 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 67.31 0)
@@ -713,9 +695,6 @@
     (pin "1" (uuid 9cca0b7e-1cd0-44ff-a3b8-010228054d11))
     (instances
       (project "RDC_Humanoid_Logic"
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
-          (reference "#PWR06") (unit 1)
-        )
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
           (reference "#PWR036") (unit 1)
         )
@@ -726,7 +705,7 @@
   (symbol (lib_id "Device:R") (at 109.22 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6f89d2c-0144-4f4b-b77e-e93db7ad44c3)
-    (property "Reference" "R?" (at 111.76 38.1 0)
+    (property "Reference" "R13" (at 111.76 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 111.76 40.64 0)
@@ -742,9 +721,6 @@
     (pin "2" (uuid cb0b42df-d711-4d4c-9b0d-47f66e876735))
     (instances
       (project "RDC_Humanoid_Logic"
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
-          (reference "R?") (unit 1)
-        )
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
           (reference "R13") (unit 1)
         )
@@ -755,7 +731,7 @@
   (symbol (lib_id "Device:R") (at 111.76 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf4f938b-96d3-4d63-a7b5-0af9b7c141b3)
-    (property "Reference" "R?" (at 114.3 109.22 0)
+    (property "Reference" "R14" (at 114.3 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 114.3 111.76 0)
@@ -771,9 +747,6 @@
     (pin "2" (uuid e2050819-1158-4b64-b6c8-2d37252bd3f5))
     (instances
       (project "RDC_Humanoid_Logic"
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
-          (reference "R?") (unit 1)
-        )
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
           (reference "R14") (unit 1)
         )
@@ -784,7 +757,7 @@
   (symbol (lib_id "power:GND") (at 116.84 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7bab54f-3f8f-4a5f-9f37-387d11fe672a)
-    (property "Reference" "#PWR09" (at 116.84 190.5 0)
+    (property "Reference" "#PWR035" (at 116.84 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 189.23 0)
@@ -799,9 +772,6 @@
     (pin "1" (uuid 6711e868-c048-4486-a921-4b2256578f10))
     (instances
       (project "RDC_Humanoid_Logic"
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
-          (reference "#PWR09") (unit 1)
-        )
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
           (reference "#PWR035") (unit 1)
         )

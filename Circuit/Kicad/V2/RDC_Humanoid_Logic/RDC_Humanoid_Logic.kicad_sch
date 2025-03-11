@@ -1437,6 +1437,9 @@
   (junction (at 285.75 207.01) (diameter 0) (color 0 0 0 0)
     (uuid 4100c027-f46d-4943-83f2-625ca31269e9)
   )
+  (junction (at 160.02 222.25) (diameter 0) (color 0 0 0 0)
+    (uuid 48abfe4d-b9b6-4816-adc1-5cdcf21e74b2)
+  )
   (junction (at 33.02 49.53) (diameter 0) (color 0 0 0 0)
     (uuid 48e8d6ff-2cde-4367-b3d8-c25b49f11c55)
   )
@@ -1470,6 +1473,9 @@
   (junction (at 87.63 101.6) (diameter 0) (color 0 0 0 0)
     (uuid 9d14915a-ee5c-4d38-885f-8ad7dee48939)
   )
+  (junction (at 160.02 261.62) (diameter 0) (color 0 0 0 0)
+    (uuid b6adcf4a-b01e-49dc-b0a7-33093a6cd79c)
+  )
   (junction (at 72.39 132.08) (diameter 0) (color 0 0 0 0)
     (uuid b7fd2096-0533-4c31-b1c6-dbec32eeaf2a)
   )
@@ -1492,17 +1498,13 @@
   (no_connect (at 124.46 149.86) (uuid 463329fc-da72-4ba6-a0a8-7c849fefed67))
   (no_connect (at 104.14 137.16) (uuid 65e797a8-5011-4610-9add-04f57adc7359))
   (no_connect (at 124.46 147.32) (uuid 670fe99c-84af-43a2-a86b-ec51f70895b0))
-  (no_connect (at 167.64 222.25) (uuid 686784b9-ca18-48b7-a4c1-a809275cb453))
   (no_connect (at 104.14 139.7) (uuid 6915efea-63d9-4907-8238-ee0b8f1b293e))
   (no_connect (at 104.14 144.78) (uuid 6ef174ca-8bf6-49b4-979e-1784047abea7))
-  (no_connect (at 167.64 259.08) (uuid 72d0faa3-51c2-4bc4-b47b-c8b0c0d3c249))
   (no_connect (at 124.46 144.78) (uuid 7e614311-ddaa-4186-a469-20759fc7f82c))
-  (no_connect (at 167.64 219.71) (uuid 95104d1b-4772-4281-83c8-c1a274af7f98))
   (no_connect (at 205.74 55.88) (uuid d431f6e1-7a86-4bdf-ba75-4846ae243f30))
   (no_connect (at 85.09 118.11) (uuid d7874da0-1d13-4a75-8974-cf359f5b0ded))
   (no_connect (at 67.31 127) (uuid e16d8d97-7a37-457e-aab0-c3b6e3e89902))
   (no_connect (at 104.14 147.32) (uuid e85c95ac-d65e-4922-8fbb-9d5bd75fed2f))
-  (no_connect (at 167.64 261.62) (uuid f17d0ee2-5610-41ad-b68e-8c05658f6ffa))
   (no_connect (at 124.46 139.7) (uuid f75e7877-5800-4147-b7fa-475ab55a3eba))
 
   (wire (pts (xy 69.85 101.6) (xy 87.63 101.6))
@@ -1517,6 +1519,10 @@
     (stroke (width 0) (type default))
     (uuid 01a9cbf1-7fc0-4bc4-9deb-d5691ed80f3f)
   )
+  (wire (pts (xy 160.02 222.25) (xy 167.64 222.25))
+    (stroke (width 0) (type default))
+    (uuid 047d3a17-8b5d-44a7-aba2-5874bedcdedd)
+  )
   (wire (pts (xy 138.43 49.53) (xy 163.83 49.53))
     (stroke (width 0) (type default))
     (uuid 0b95e5aa-0b2f-4415-9d27-d5195e2119af)
@@ -1528,6 +1534,10 @@
   (wire (pts (xy 281.94 207.01) (xy 285.75 207.01))
     (stroke (width 0) (type default))
     (uuid 0f77d9f6-a6cd-4630-83be-98da6d95a520)
+  )
+  (wire (pts (xy 167.64 219.71) (xy 160.02 219.71))
+    (stroke (width 0) (type default))
+    (uuid 1503124b-cb1c-4c3d-91f7-bcc24c9e6f2e)
   )
   (wire (pts (xy 285.75 212.09) (xy 285.75 222.25))
     (stroke (width 0) (type default))
@@ -1577,6 +1587,10 @@
     (stroke (width 0) (type default))
     (uuid 2d867196-bf55-4ec8-a982-02a1a2dd90f7)
   )
+  (wire (pts (xy 160.02 261.62) (xy 160.02 269.24))
+    (stroke (width 0) (type default))
+    (uuid 2ff88b6c-795c-4db5-b892-02b20360e3bd)
+  )
   (wire (pts (xy 114.3 57.15) (xy 114.3 60.96))
     (stroke (width 0) (type default))
     (uuid 3892f4aa-865e-461f-830e-b71560ac2633)
@@ -1600,6 +1614,10 @@
   (wire (pts (xy 269.24 217.17) (xy 262.89 217.17))
     (stroke (width 0) (type default))
     (uuid 46347992-1d5c-4b82-a919-6fa2b9cbec77)
+  )
+  (wire (pts (xy 167.64 259.08) (xy 160.02 259.08))
+    (stroke (width 0) (type default))
+    (uuid 46834e2e-6ba3-4d54-9e23-11bd05802a47)
   )
   (wire (pts (xy 90.17 139.7) (xy 90.17 134.62))
     (stroke (width 0) (type default))
@@ -1713,9 +1731,17 @@
     (stroke (width 0) (type default))
     (uuid 77652753-9f24-49e2-8080-a5ba0e863c2a)
   )
+  (wire (pts (xy 160.02 259.08) (xy 160.02 261.62))
+    (stroke (width 0) (type default))
+    (uuid 7cab55f1-d85e-4acf-8e64-b8671923fc18)
+  )
   (wire (pts (xy 46.99 213.36) (xy 46.99 215.9))
     (stroke (width 0) (type default))
     (uuid 7fb9d6ef-f804-4595-831e-26d66c2bad16)
+  )
+  (wire (pts (xy 160.02 219.71) (xy 160.02 222.25))
+    (stroke (width 0) (type default))
+    (uuid 8180ccf8-fb45-45a7-816b-2501cc031a04)
   )
   (wire (pts (xy 198.12 209.55) (xy 223.52 209.55))
     (stroke (width 0) (type default))
@@ -1825,9 +1851,17 @@
     (stroke (width 0) (type default))
     (uuid cd6cf104-5d62-403c-9285-282aaab59508)
   )
+  (wire (pts (xy 160.02 261.62) (xy 167.64 261.62))
+    (stroke (width 0) (type default))
+    (uuid d0b05dc4-b23a-47f4-be89-8e8a20a62d3b)
+  )
   (wire (pts (xy 212.09 64.77) (xy 212.09 71.12))
     (stroke (width 0) (type default))
     (uuid d2a900c0-d7d5-4fd7-8626-3f2eb1c32553)
+  )
+  (wire (pts (xy 160.02 222.25) (xy 160.02 232.41))
+    (stroke (width 0) (type default))
+    (uuid d7714d98-1460-486a-a463-52ae351d6e30)
   )
   (wire (pts (xy 87.63 101.6) (xy 130.81 101.6))
     (stroke (width 0) (type default))
@@ -1900,6 +1934,12 @@
   (wire (pts (xy 124.46 132.08) (xy 146.05 132.08))
     (stroke (width 0) (type default))
     (uuid ff1a68d4-4dc3-478a-a1cd-e8eeea65a5f0)
+  )
+
+  (text "STANDBY is Low  -> normal mode\nSTANDBY is High -> standby mode (wake up by RXD)"
+    (at 142.24 281.94 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b737ca08-7947-4b5d-bda7-6545489b04ba)
   )
 
   (global_label "EN_Power" (shape input) (at 114.3 127 90) (fields_autoplaced)
@@ -2011,9 +2051,6 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "#PWR025") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "#PWR016") (unit 1)
-        )
       )
     )
   )
@@ -2040,9 +2077,6 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "R15") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "R6") (unit 1)
-        )
       )
     )
   )
@@ -2067,9 +2101,6 @@
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "#PWR03") (unit 1)
-        )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2123,9 +2154,6 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "#PWR027") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "#PWR016") (unit 1)
-        )
       )
     )
   )
@@ -2176,9 +2204,6 @@
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "R2") (unit 1)
-        )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "R6") (unit 1)
         )
       )
     )
@@ -2293,9 +2318,6 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "#PWR029") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "#PWR016") (unit 1)
-        )
       )
     )
   )
@@ -2348,9 +2370,6 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "R10") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "R6") (unit 1)
-        )
       )
     )
   )
@@ -2375,9 +2394,6 @@
     (pin "3" (uuid 2881ebe5-fa31-4584-8b10-f7f1f8affba4))
     (instances
       (project "RDC_Humanoid_Logic"
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "SW1") (unit 1)
-        )
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "SW1") (unit 1)
         )
@@ -2388,7 +2404,7 @@
   (symbol (lib_id "power:GND1") (at 222.25 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a682b7a-4c4b-4b52-8999-5b222a7502df)
-    (property "Reference" "#PWR07" (at 222.25 222.25 0)
+    (property "Reference" "#PWR09" (at 222.25 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 222.25 219.71 0)
@@ -2403,12 +2419,6 @@
     (pin "1" (uuid 9b31b1f9-e6b3-4290-b57d-79329e9b7166))
     (instances
       (project "RDC_Humanoid_Logic"
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
-          (reference "#PWR07") (unit 1)
-        )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/4e0cc178-8164-45af-8b1c-3daea8e76e2d"
-          (reference "#PWR014") (unit 1)
-        )
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "#PWR09") (unit 1)
         )
@@ -2533,9 +2543,6 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "#PWR023") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "#PWR016") (unit 1)
-        )
       )
     )
   )
@@ -2587,9 +2594,6 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "#PWR019") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "#PWR016") (unit 1)
-        )
       )
     )
   )
@@ -2622,7 +2626,7 @@
   (symbol (lib_id "power:GND1") (at 222.25 255.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75ef8a49-86ad-4913-bbb1-775f844588fc)
-    (property "Reference" "#PWR07" (at 222.25 261.62 0)
+    (property "Reference" "#PWR010" (at 222.25 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 222.25 259.08 0)
@@ -2637,12 +2641,6 @@
     (pin "1" (uuid 001e27c4-813e-47bf-9dec-217d4a0c1add))
     (instances
       (project "RDC_Humanoid_Logic"
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
-          (reference "#PWR07") (unit 1)
-        )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/4e0cc178-8164-45af-8b1c-3daea8e76e2d"
-          (reference "#PWR014") (unit 1)
-        )
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "#PWR010") (unit 1)
         )
@@ -2671,9 +2669,6 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "#PWR028") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "#PWR016") (unit 1)
-        )
       )
     )
   )
@@ -2699,9 +2694,6 @@
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "R11") (unit 1)
-        )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "R6") (unit 1)
         )
       )
     )
@@ -2735,7 +2727,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 87.63 113.03 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7edb1117-6ad5-4dc0-8d62-298c5d8fc49e)
-    (property "Reference" "SW1" (at 83.82 111.76 90)
+    (property "Reference" "SW3" (at 83.82 111.76 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_SPDT" (at 83.82 114.3 90)
@@ -2752,9 +2744,6 @@
     (pin "3" (uuid 984fec8c-9ca0-4bed-a690-9d23cb4ae343))
     (instances
       (project "RDC_Humanoid_Logic"
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "SW1") (unit 1)
-        )
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "SW3") (unit 1)
         )
@@ -2865,9 +2854,6 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "#PWR030") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "#PWR016") (unit 1)
-        )
       )
     )
   )
@@ -2894,9 +2880,6 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "R1") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "R6") (unit 1)
-        )
       )
     )
   )
@@ -2921,9 +2904,6 @@
       (project "RDC_Humanoid_Logic"
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "#PWR07") (unit 1)
-        )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2977,9 +2957,6 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "#PWR026") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "#PWR016") (unit 1)
-        )
       )
     )
   )
@@ -3030,9 +3007,6 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "R9") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "R6") (unit 1)
-        )
       )
     )
   )
@@ -3040,7 +3014,7 @@
   (symbol (lib_id "Device:C_Small") (at 83.82 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5474af3-8664-4119-bc29-45e259bd48a7)
-    (property "Reference" "C22" (at 76.2 53.34 0)
+    (property "Reference" "C2" (at 76.2 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 76.2 55.88 0)
@@ -3056,15 +3030,6 @@
     (pin "2" (uuid 7eef4409-7317-4de0-9256-c1ce8bb6efac))
     (instances
       (project "RDC_Humanoid_Logic"
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
-          (reference "C22") (unit 1)
-        )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/4e0cc178-8164-45af-8b1c-3daea8e76e2d"
-          (reference "C4") (unit 1)
-        )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "C19") (unit 1)
-        )
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "C2") (unit 1)
         )
@@ -3093,9 +3058,6 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "#PWR04") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "#PWR016") (unit 1)
-        )
       )
     )
   )
@@ -3122,9 +3084,6 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "R7") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "R6") (unit 1)
-        )
       )
     )
   )
@@ -3150,9 +3109,6 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "#PWR01") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "#PWR016") (unit 1)
-        )
       )
     )
   )
@@ -3160,7 +3116,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 69.85 121.92 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9ac8ffd-dc4d-45dc-b718-af65932eebf4)
-    (property "Reference" "SW1" (at 66.04 120.65 90)
+    (property "Reference" "SW2" (at 66.04 120.65 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_SPDT" (at 66.04 123.19 90)
@@ -3177,9 +3133,6 @@
     (pin "3" (uuid 4bf101c5-6930-4098-b680-ac8d24623c0b))
     (instances
       (project "RDC_Humanoid_Logic"
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "SW1") (unit 1)
-        )
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "SW2") (unit 1)
         )
@@ -3234,9 +3187,6 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "#PWR06") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "#PWR016") (unit 1)
-        )
       )
     )
   )
@@ -3289,9 +3239,6 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "R12") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "R6") (unit 1)
-        )
       )
     )
   )
@@ -3318,8 +3265,30 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "R8") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "R6") (unit 1)
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 160.02 232.41 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e14728aa-e98a-4d7c-b713-0f89823f0441)
+    (property "Reference" "#PWR038" (at 160.02 238.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 160.02 237.49 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 160.02 232.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 160.02 232.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 28d74572-8e1d-4fc0-8809-c0eb578a25d9))
+    (instances
+      (project "RDC_Humanoid_Logic"
+        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -3331,10 +3300,10 @@
     (property "Reference" "J1" (at 27.94 58.42 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "XT30" (at 27.94 55.88 0)
+    (property "Value" "XT60" (at 27.94 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal" (at 27.94 52.07 0)
+    (property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal" (at 27.94 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 27.94 52.07 0)
@@ -3422,8 +3391,30 @@
         (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
           (reference "#PWR031") (unit 1)
         )
-        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/3cc3fb12-43c9-44a7-aafc-8cfc59ac2e26"
-          (reference "#PWR016") (unit 1)
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 160.02 269.24 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ffbac265-d058-4c92-ac60-c716f3c68710)
+    (property "Reference" "#PWR049" (at 160.02 275.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 160.02 274.32 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 160.02 269.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 160.02 269.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f065f28c-8e01-4ef1-9755-511e4e518811))
+    (instances
+      (project "RDC_Humanoid_Logic"
+        (path "/2bec3ac6-4176-417a-a2e5-e81844f01e63"
+          (reference "#PWR049") (unit 1)
         )
       )
     )
