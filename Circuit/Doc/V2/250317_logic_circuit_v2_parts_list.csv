@@ -1,0 +1,53 @@
+,私費購入予定,,,合計金額,,,,,,,,,,
+↓：要変更,,,," ¥ 11,558.50 ",,,,,←：セット商品,,,,,
+,,,,,,,,,,,,,,
+,購入済み,系統,部品名・部品用途,商品名,発注会社,購入リンク(URL),価格(税込み),必要数量（最低）,購入数量,購入金額,単体重量 [kg],総重量 [kg],重量（＆関するコメント）,コメント
+,FALSE,コネクタ,電源用。XT60PW-M,XT60コネクター オス 基板取付用 XT60PW-M,秋月電子,https://akizukidenshi.com/catalog/g/g118156/, ¥ 100.00 ,1,1, ¥ 100.00 ,,0,,
+,FALSE,コネクタ,CAN通信用XAヘッダ。S03B-XASK-1,S03B-XASK-1,marutsu,https://www.marutsu.co.jp/pc/i/2231712/, ¥ 67.00 ,2,2, ¥ 134.00 ,,0,,XAコネクタの仕様書：JSTリンク
+,FALSE,コネクタ,CAN通信用XAハウジング。XAP-03V-1,XAP-03V-1,marutsu,https://www.marutsu.co.jp/pc/i/953235/, ¥ 40.00 ,2,2, ¥ 80.00 ,,0,,
+,FALSE,コネクタ,CAN通信用XAコンタクト。SXA-001T-P0.6,SXA-001T-P0.6,marutsu,https://www.marutsu.co.jp/pc/i/574398/, ¥ 24.00 ,6,6, ¥ 144.00 ,,0,,コンタクトはまとめ買いのほうがお得なので、それに変えたほうが良い。
+,FALSE,ピンヘッダ,PinHeader_2x20_P2.54mm,ピンヘッダー2x20 (40P),秋月電子,https://akizukidenshi.com/catalog/g/g100080/, ¥ 50.00 ,1,1, ¥ 50.00 ,,0,,
+,TRUE,DCDCコンバータ,12Vto5V大電流対応降圧モジュール,MYMGK00506ERSR使用 5V出力 最大6A 大電流DCDCコンバーターモジュールキット,秋月電子,https://akizukidenshi.com/catalog/g/g115108/," ¥ 1,320.00 ",2,0, ¥ -   ,,0,,
+,FALSE,DCDCコンバータ,12Vto5V PG用DCDCパッケージ,超高効率DCDCコンバーター(5V0.5A) M78AR05-0.5,秋月電子,https://akizukidenshi.com/catalog/g/g107179/, ¥ 580.00 ,1,1, ¥ 580.00 ,0.00195,0.00195,,
+,FALSE,スイッチ,1回路２接点コンピュータ電源用スイッチ,基板用小型3Pトグルスイッチ 1回路2接点,秋月電子,https://akizukidenshi.com/catalog/g/g100300/, ¥ 140.00 ,3,3, ¥ 420.00 ,,0,,
+,FALSE,コンデンサ,電源ノイズ対策用コンデンサ,電源用電解コンデンサー100μF35V105℃ ルビコンZLH,秋月電子,https://akizukidenshi.com/catalog/g/g102724/, ¥ 15.00 ,1,1, ¥ 15.00 ,,0,,
+,FALSE,トランジスタ,トランジスタアレイ,8chソースタイプDMOSトランジスターアレイ TBD62783AFG,秋月電子,https://akizukidenshi.com/catalog/g/g111082, ¥ 70.00 ,1,1, ¥ 70.00 ,,0,,
+,FALSE,FET,Back2Backスイッチング用PMOS,PchパワーMOSFET 40V60A TJ60S04M3L,秋月電子,https://akizukidenshi.com/catalog/g/g116297/, ¥ 100.00 ,2,2, ¥ 200.00 ,,0,,秋月電子で買うから、今のコレ。ゲート・ソース間電圧の定格に近づくほどドレイン・ソース間電圧（＝ロス）が減る。まあ、コレでもほとんど変わらんぐらいなので、良いんでない？
+,FALSE,抵抗,チップ抵抗10kΩ（主にPull Up/Down）,RMCF0603FT10K0,Mouser,https://www.mouser.jp/ProductDetail/SEI-Stackpole/RMCF0603FT10K0?qs=sGAEpiMZZMvdGkrng054t6qxSQZU8RmqG8RnbWoOev3nO6uFnn9SrA%3D%3D, ¥ 18.70 ,8,8, ¥ 149.60 ,,0,,複数個買った方がめっちゃ割安。リール（5000個）で買うならコッチ（秋月。仕様が少し違うが問題ない。以下同様）：チップ抵抗 1/10W 10kΩ ￥980
+,FALSE,抵抗,チップ抵抗1kΩ（LED）,RMCF0603FT1K00,Mouser,https://www.mouser.jp/ProductDetail/SEI-Stackpole/RMCF0603FT1K00?qs=sGAEpiMZZMvdGkrng054t3ANA3awMu46sbrqMnhdOKAZV3KCmbUjXQ%3D%3D, ¥ 18.70 ,2,2, ¥ 37.40 ,,0,,複数個買った方がめっちゃ割安。リールならコッチ：チップ抵抗 1/10W 1kΩ ￥980
+,FALSE,抵抗,チップ抵抗4.7kΩ（LED、Pull Up）,RMCF0603FT4K70,Mouser,https://www.mouser.jp/ProductDetail/SEI-Stackpole/RMCF0603FT4K70?qs=sGAEpiMZZMvdGkrng054t3ANA3awMu46AKMoa4PhcE6avP6DTm9COQ%3D%3D, ¥ 18.70 ,3,3, ¥ 56.10 ,,0,,複数個買った方がめっちゃ割安。リールならコッチ：チップ抵抗 1/10W 4.7kΩ ￥980
+,FALSE,抵抗,チップ抵抗120Ω（CANの終端抵抗）,RMCF0603FT120R,Mouser,https://www.mouser.jp/ProductDetail/SEI-Stackpole/RMCF0603FT120R?qs=FESYatJ8odLT3vCYyOeKQw%3D%3D, ¥ 18.70 ,2,2, ¥ 37.40 ,,0,,複数個買った方がめっちゃ割安。
+,FALSE,LED,チップLED（赤＝電源用）,赤色チップLED [1608] 625nm 120度 OSHR1608（１パック２０個入り）,秋月電子,https://akizukidenshi.com/catalog/g/g103978/, ¥ 200.00 ,1,1, ¥ 200.00 ,,0,,１パック２０個入りの内、実装には３個必要。
+,FALSE,ダイオード,逆接防止用ショットキーバリアダイオード,チップダイオード 1000V1A GS1010FL（１パック１０個入り）,秋月電子,https://akizukidenshi.com/catalog/g/g106014/, ¥ 100.00 ,1,1, ¥ 100.00 ,,0,,逆接時に破損してほしいので、安めのやつを選定。１パック１０個の内、実装では１つ使用。
+,FALSE,ダイオード,逆流防止用ショットキーバリアダイオード,SBRダイオード SBR2U30P1（１パック４個入り）,秋月電子,https://akizukidenshi.com/catalog/g/g117096/, ¥ 100.00 ,1,1, ¥ 100.00 ,,0,,できる限り電圧降下を抑えたいので、順方向電圧が低い良いものを選定。１パック４個の内、使うのは１つ。
+,FALSE,コンデンサ,CAN_Trans用ノイズ対策（高周波）,チップ積層セラミックコンデンサー 0.01μF50V B 1608（１パック５０個入り）,秋月電子,https://akizukidenshi.com/catalog/g/g113387/, ¥ 100.00 ,1,1, ¥ 100.00 ,,0,,１パックの内、実装するのは４個。
+,FALSE,コンデンサ,CAN_Trans用ノイズ対策（高～中周波）、RC回路を形成し電源投入時の電流の立ち上がりを鈍化（突入電流の抑制）,チップ積層セラミックコンデンサー 0.1μF100V X7R 1608（１パック２０個入り）,秋月電子,https://akizukidenshi.com/catalog/g/g114559/, ¥ 150.00 ,1,1, ¥ 150.00 ,,0,,１パックの内、実装するのは５個。
+,FALSE,コンデンサ,CAN_Trans用ノイズ対策（中周波）,チップ積層セラミックコンデンサー 1μF25V X6S 1608（１パック４０個入り）,秋月電子,https://akizukidenshi.com/catalog/g/g116993/, ¥ 120.00 ,1,1, ¥ 120.00 ,,0,,１パックの内、実装するのは４個。
+,FALSE,コンデンサ,CAN_Trans用ノイズ対策（低周波）,チップ積層セラミックコンデンサー 10μF35V X5R 1608（１パック１０個入り）,秋月電子,https://akizukidenshi.com/catalog/g/g113161/, ¥ 150.00 ,1,1, ¥ 150.00 ,,0,,１パックの内、実装するのは６個。
+,FALSE,フェライトビーズ,CAN_Trans用ノイズ対策,チップインダクター(フェライトビーズ) 330Ω[2012] ムラタBLM21P（１パック２５個入り）,秋月電子,https://akizukidenshi.com/catalog/g/g104053/, ¥ 100.00 ,1,1, ¥ 100.00 ,,0,,１パックの内、実装するのは１０個。
+,TRUE,コンピュータ,高レベル処理,Raspberry Pi 5 (8GB),-,-, ¥ -   ,1,0, ¥ -   ,,0,,
+,FALSE,コンピュータ,低レベル処理,NUCLEO-H755ZI-Q,Mouser,https://www.mouser.jp/ProductDetail/STMicroelectronics/NUCLEO-H755ZI-Q?qs=%252B6g0mu59x7KOiBeEHDTYVQ%3D%3D," ¥ 5,264.00 ",1,1," ¥ 5,264.00 ",,0,,
+,FALSE,その他,基板固定用M3スペーサ,（アキバで調達）,,,,,, ¥ -   ,,0,,
+,FALSE,その他,基板固定用M3ナット,（アキバで調達）,,,,,, ¥ -   ,,0,,
+,FALSE,その他,基板固定用M3ねじ,（アキバで調達）,,,,,, ¥ -   ,,0,,
+,FALSE,その他,NUCLEO用ヒートシンク,（アキバで調達）,,,,,, ¥ -   ,,0,,
+,FALSE,IC,絶縁DCDCコンバータ付き絶縁CANトランシーバ,ISOW1044BDFMR,Mouser,https://www.mouser.jp/ProductDetail/Texas-Instruments/ISOW1044BDFMR?qs=Li%252BoUPsLEnsRP1xV2fQwnw%3D%3D," ¥ 1,600.50 ",2,2," ¥ 3,201.00 ",,0,,
+,FALSE,,,,,,,,, ¥ -   ,,0,,
+,FALSE,,,,,,,,, ¥ -   ,,0,,
+,FALSE,,,,,,,,, ¥ -   ,,0,,
+,FALSE,,,,,,,,, ¥ -   ,,0,,
+,FALSE,,,,,,,,, ¥ -   ,,0,,
+,FALSE,,,,,,,,, ¥ -   ,,0,,
+,FALSE,,,,,,,,, ¥ -   ,,0,,
+,FALSE,,,,,,,,, ¥ -   ,,0,,
+,FALSE,,,,,,,,, ¥ -   ,,0,,
+,FALSE,,,,,,,,, ¥ -   ,,0,,
+,FALSE,,,,,,,,, ¥ -   ,,0,,
+,,,,,,,,,最低合計金額：,"¥11,558.50",,,,
+,,,,,,,,,,,,,,
+,,,,,,,,購入先別金額,秋月電子：," ¥ 2,455.00 ",,送料リスト：,Mouser：,"¥2,000.00"
+,,,,,,,,,Mouser：," ¥ 8,745.50 ",,（税込み）,秋月電子：,500 or 600 x 個口数
+,,,,,,,,,marutsu：, ¥ 358.00 ,,,marutsu：,550 (宅急便) or 385 (ネコポス)
+,,,,,,,,,,,,送料無料ライン：,Mouser：,"¥6,600.00"
+,,,,,,,,,SUM," ¥ 11,558.50 ",,（税込み）,秋月電子：,"¥11,000.00"
+,,,,,,,,,,,,,marutsu：,"¥3,300.00"
