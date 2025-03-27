@@ -729,7 +729,7 @@
     (property "Reference" "Q1" (at 137.16 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TK7R4A10RL" (at 137.16 78.74 0)
+    (property "Value" "TK7R4A10PL" (at 137.16 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 135.89 74.93 0)
