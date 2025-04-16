@@ -347,6 +347,206 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_02x02_Row_Letter_Last"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Row_Letter_Last"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Row_Letter_Last_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_1b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_2b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -1059,20 +1259,6 @@
 		(uuid 02c7cae7-14f0-40e3-8206-cd8a24daf0ad)
 	)
 	(rectangle
-		(start 55.88 50.8)
-		(end 58.42 59.69)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 255 0 0 0.4)
-		)
-		(uuid 09dccd83-d437-42ff-98e2-08ad275f2881)
-	)
-	(rectangle
 		(start 157.48 95.25)
 		(end 160.02 123.19)
 		(stroke
@@ -1099,6 +1285,20 @@
 			(color 255 0 0 0.4)
 		)
 		(uuid 64e900c4-f9ec-49e0-bb37-3a2b27b7da68)
+	)
+	(rectangle
+		(start 55.88 48.26)
+		(end 58.42 67.31)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 0 0 0.4)
+		)
+		(uuid 6f14baa2-e3aa-430b-9249-47db3c2d8070)
 	)
 	(rectangle
 		(start 143.51 40.64)
@@ -1184,6 +1384,28 @@
 		)
 		(uuid f438731d-78e7-4f0a-9a63-796b22c6c6b3)
 	)
+	(text "CANチェーン用基板"
+		(exclude_from_sim no)
+		(at 154.94 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "2796d75c-4884-4cce-b4fc-b78a9ed56643")
+	)
+	(text "端子台"
+		(exclude_from_sim no)
+		(at 57.404 46.736 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "2a4e3d33-6066-4748-9cf5-429fcb33346b")
+	)
 	(text "<-- : 端子台、あるいは他の方法で配線の分割/結合が必要な箇所"
 		(exclude_from_sim no)
 		(at 91.694 94.234 0)
@@ -1206,38 +1428,16 @@
 		)
 		(uuid "34bb7dcc-b60b-4e3d-929d-86b6d7818c03")
 	)
-	(text "ギボシ端子ダブル"
+	(text "CANチェーン用基板"
 		(exclude_from_sim no)
-		(at 153.416 68.326 0)
+		(at 155.194 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 255 0 0 1)
 			)
 		)
-		(uuid "3dc0096e-dcbc-4370-b714-b6d46db66f8d")
-	)
-	(text "ギボシ端子ダブル"
-		(exclude_from_sim no)
-		(at 159.258 70.866 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "5c8bc778-e131-4c84-b73c-3e30b060b645")
-	)
-	(text "ギボシ端子ダブル"
-		(exclude_from_sim no)
-		(at 159.258 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "65117af8-7707-45cb-8485-87c517277c1d")
+		(uuid "419ace49-2668-439f-b214-7b8089f6b1b8")
 	)
 	(text "分岐端子台"
 		(exclude_from_sim no)
@@ -1261,17 +1461,6 @@
 		)
 		(uuid "68481c46-5491-476e-83fd-a0ddb8ef0613")
 	)
-	(text "ギボシ端子ダブル"
-		(exclude_from_sim no)
-		(at 159.004 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "85f40118-27dc-496e-8c3f-a7e0c35018b6")
-	)
 	(text "分岐端子台"
 		(exclude_from_sim no)
 		(at 139.446 37.084 0)
@@ -1283,40 +1472,40 @@
 		)
 		(uuid "8d23f22f-18bc-47a2-aaa3-3c5eb11ccbe6")
 	)
-	(text "ギボシ端子ダブル"
+	(text "CANチェーン用基板"
 		(exclude_from_sim no)
-		(at 153.416 55.372 0)
+		(at 154.686 117.856 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 255 0 0 1)
 			)
 		)
-		(uuid "970d6369-d04b-4ee9-be91-5ef72eb3656e")
+		(uuid "b0a2d5d8-4066-446f-a70b-1eeea22a5c9b")
 	)
-	(text "ギボシ端子ダブル"
+	(text "CANチェーン用基板"
 		(exclude_from_sim no)
-		(at 154.686 118.11 0)
+		(at 155.194 104.902 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 255 0 0 1)
 			)
 		)
-		(uuid "a24b4232-8168-4991-b9b7-5cf54a80d1a0")
+		(uuid "d53f0855-93e0-47be-b663-954b8f7caf02")
 	)
-	(text "ギボシ端子"
+	(text "CANチェーン用基板"
 		(exclude_from_sim no)
-		(at 62.23 50.292 0)
+		(at 159.004 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 255 0 0 1)
 			)
 		)
-		(uuid "c27adf2a-59a7-49b1-96b8-b6d03d5de6e1")
+		(uuid "dc5ad0e3-c180-42e5-bc3d-2f82ca1cdab9")
 	)
-	(text "ギボシ端子ダブル"
+	(text "CANチェーン用基板"
 		(exclude_from_sim no)
 		(at 158.75 120.65 0)
 		(effects
@@ -1327,16 +1516,27 @@
 		)
 		(uuid "dc5d95f4-f994-4215-99a0-eb2bd3ab66d7")
 	)
-	(text "ギボシ端子ダブル"
+	(text "CANチェーン用基板"
 		(exclude_from_sim no)
-		(at 154.178 105.41 0)
+		(at 159.004 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 255 0 0 1)
 			)
 		)
-		(uuid "fb1a7d7e-06ba-491e-8d93-50a80b7076e7")
+		(uuid "e67e455c-fcc6-4e67-bced-efd73204c3a9")
+	)
+	(text "CANチェーン用基板"
+		(exclude_from_sim no)
+		(at 158.75 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "fe41d52a-b875-4554-a271-13421b85cb16")
 	)
 	(junction
 		(at 154.94 57.15)
@@ -1470,6 +1670,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 49.53) (xy 57.15 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a7f094-ce00-4e16-af58-e4f769f30a5f")
+	)
+	(wire
+		(pts
 			(xy 139.7 114.3) (xy 139.7 101.6)
 		)
 		(stroke
@@ -1500,6 +1710,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 52.07) (xy 41.91 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09dd13e3-60b9-40fc-a402-0be1b0fd22e7")
+	)
+	(wire
+		(pts
 			(xy 158.75 121.92) (xy 163.83 121.92)
 		)
 		(stroke
@@ -1517,6 +1737,26 @@
 			(type default)
 		)
 		(uuid "0e778c71-9183-4eb1-8f3f-237f44cbee00")
+	)
+	(wire
+		(pts
+			(xy 39.37 49.53) (xy 41.91 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e8d000-3d61-41b4-b147-01f4896909a6")
+	)
+	(wire
+		(pts
+			(xy 57.15 52.07) (xy 57.15 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1333bbf4-43cd-4059-884a-a518d54863ba")
 	)
 	(wire
 		(pts
@@ -1590,16 +1830,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 52.07) (xy 54.61 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "315b41d2-a40e-4fd4-a048-bb85527e3a87")
-	)
-	(wire
-		(pts
 			(xy 163.83 44.45) (xy 154.94 44.45)
 		)
 		(stroke
@@ -1607,6 +1837,16 @@
 			(type default)
 		)
 		(uuid "3a1918c8-d271-4be0-93eb-ec48ebf87653")
+	)
+	(wire
+		(pts
+			(xy 54.61 49.53) (xy 57.15 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d751049-f1dd-41d7-acd8-6531199ef925")
 	)
 	(wire
 		(pts
@@ -1637,6 +1877,16 @@
 			(type default)
 		)
 		(uuid "43f38a37-eba6-4975-8b51-81834d1afd95")
+	)
+	(wire
+		(pts
+			(xy 39.37 63.5) (xy 41.91 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48db3c87-3065-46b5-934f-5c3b8d395cc4")
 	)
 	(wire
 		(pts
@@ -1710,16 +1960,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 49.53) (xy 57.15 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a47ae46-1bb6-4359-83a8-95bf9794814b")
-	)
-	(wire
-		(pts
 			(xy 144.78 41.91) (xy 144.78 54.61)
 		)
 		(stroke
@@ -1780,6 +2020,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 66.04) (xy 41.91 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "792ce982-bcbc-4b68-bd6d-3adfa7133015")
+	)
+	(wire
+		(pts
 			(xy 154.94 93.98) (xy 154.94 106.68)
 		)
 		(stroke
@@ -1787,16 +2037,6 @@
 			(type default)
 		)
 		(uuid "85886a46-dca5-413c-90c7-a85c8e469a7f")
-	)
-	(wire
-		(pts
-			(xy 54.61 49.53) (xy 57.15 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "879c8bcc-2adb-4b85-939c-afb3f10ce978")
 	)
 	(wire
 		(pts
@@ -1840,6 +2080,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 66.04) (xy 57.15 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a520da-962e-4517-8508-3b3eebe31003")
+	)
+	(wire
+		(pts
 			(xy 154.94 57.15) (xy 163.83 57.15)
 		)
 		(stroke
@@ -1870,16 +2120,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 52.07) (xy 57.15 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3526ebd-426f-4912-85bd-8960311b692b")
-	)
-	(wire
-		(pts
 			(xy 158.75 59.69) (xy 158.75 72.39)
 		)
 		(stroke
@@ -1887,16 +2127,6 @@
 			(type default)
 		)
 		(uuid "a3753036-ca41-460a-9524-61e9c4853116")
-	)
-	(wire
-		(pts
-			(xy 54.61 60.96) (xy 57.15 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5d96658-5ec7-40d2-82e5-7a3ff2703027")
 	)
 	(wire
 		(pts
@@ -1960,6 +2190,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 66.04) (xy 57.15 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf91c042-40fc-4c71-91dc-53328c812abf")
+	)
+	(wire
+		(pts
 			(xy 154.94 69.85) (xy 163.83 69.85)
 		)
 		(stroke
@@ -2020,13 +2260,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 58.42) (xy 54.61 58.42)
+			(xy 57.15 52.07) (xy 54.61 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0c34375-80f1-4233-9557-ec6977bd5885")
+		(uuid "d387e7dd-f560-44ba-825c-349fea554aca")
 	)
 	(wire
 		(pts
@@ -2090,16 +2330,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 60.96) (xy 57.15 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2e84ebf-e16e-459e-9bea-a366c01432db")
-	)
-	(wire
-		(pts
 			(xy 158.75 109.22) (xy 158.75 121.92)
 		)
 		(stroke
@@ -2107,6 +2337,16 @@
 			(type default)
 		)
 		(uuid "f64a0aca-881b-446b-a1bd-c02ff651c7b4")
+	)
+	(wire
+		(pts
+			(xy 57.15 63.5) (xy 54.61 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94ffafb-3b70-4f2a-b037-8887c6d27d4c")
 	)
 	(wire
 		(pts
@@ -2428,7 +2668,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 67.31 0)
+		(at 57.15 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2437,7 +2677,7 @@
 		(fields_autoplaced yes)
 		(uuid "29e25a2e-b894-44ca-b501-4a24801fc261")
 		(property "Reference" "#PWR02"
-			(at 57.15 73.66 0)
+			(at 57.15 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2446,7 +2686,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 72.39 0)
+			(at 57.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2454,7 +2694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 67.31 0)
+			(at 57.15 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +2703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 67.31 0)
+			(at 57.15 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +2712,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 67.31 0)
+			(at 57.15 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2734,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 49.53 49.53 0)
+		(at 34.29 49.53 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2504,7 +2744,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f7981a4-b8cc-4c03-b8f1-b5475616e9c8")
 		(property "Reference" "J1"
-			(at 46.99 49.5299 0)
+			(at 31.75 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2513,7 +2753,7 @@
 			)
 		)
 		(property "Value" "LiPo_+24V"
-			(at 46.99 52.0699 0)
+			(at 31.75 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,7 +2762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 49.53 0)
+			(at 34.29 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,7 +2771,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 49.53 0)
+			(at 34.29 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,7 +2780,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 49.53 49.53 0)
+			(at 34.29 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +2897,7 @@
 				)
 			)
 		)
-		(property "Value" "Relay_SPST-NO"
+		(property "Value" "G9EC-1-B-DC12"
 			(at 88.9 72.39 90)
 			(effects
 				(font
@@ -2950,7 +3190,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "VS-VSKD166/16PBF"
 			(at 88.9 41.91 0)
 			(effects
 				(font
@@ -3020,7 +3260,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 49.53 58.42 0)
+		(at 34.29 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3030,7 +3270,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1014bfc-bf96-472d-931f-4274b6585af3")
 		(property "Reference" "J2"
-			(at 46.99 58.4199 0)
+			(at 31.75 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,7 +3279,7 @@
 			)
 		)
 		(property "Value" "LiPo_+24V"
-			(at 46.99 60.9599 0)
+			(at 31.75 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,7 +3288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 58.42 0)
+			(at 34.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3057,7 +3297,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 58.42 0)
+			(at 34.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3066,7 +3306,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 49.53 58.42 0)
+			(at 34.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3166,6 +3406,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Row_Letter_Last")
+		(at 46.99 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0e903d6-e96f-46e9-9a4f-6a0ff428bff3")
+		(property "Reference" "J10"
+			(at 48.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 46.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2b"
+			(uuid "74a3cb8e-e65d-4e08-8cde-900c9618cba4")
+		)
+		(pin "2a"
+			(uuid "f3ba00a8-e59f-4cc7-9abe-18be42b5f8cd")
+		)
+		(pin "1a"
+			(uuid "dce74b2f-e870-4758-a72f-ce852d507180")
+		)
+		(pin "1b"
+			(uuid "c3ab42ef-2380-4509-ad24-d5d25be4babf")
+		)
+		(instances
+			(project "RDC_Humanoid_Power"
+				(path "/3bad0895-e1a8-4c78-ae1f-bd410495ca7e"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 168.91 104.14 0)
 		(unit 1)
@@ -3236,6 +3550,80 @@
 			(project "RDC_Humanoid_Power"
 				(path "/3bad0895-e1a8-4c78-ae1f-bd410495ca7e"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Row_Letter_Last")
+		(at 46.99 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e65f3d87-5ece-4006-b5b4-4ac3c158ba66")
+		(property "Reference" "J9"
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60"
+			(at 48.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 46.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2b"
+			(uuid "5bbfcb7a-4090-4c49-a2ec-39be545d019c")
+		)
+		(pin "2a"
+			(uuid "517523ae-3b15-4ff9-86a8-4b63113c89bd")
+		)
+		(pin "1a"
+			(uuid "706e0f68-b5fd-4005-8b84-ff1e09d4abc6")
+		)
+		(pin "1b"
+			(uuid "64b78a54-1121-44ce-96a1-653b0757f9e6")
+		)
+		(instances
+			(project ""
+				(path "/3bad0895-e1a8-4c78-ae1f-bd410495ca7e"
+					(reference "J9")
 					(unit 1)
 				)
 			)
