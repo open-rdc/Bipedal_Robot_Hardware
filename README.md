@@ -13,6 +13,9 @@ RDC_LAB ２足歩行ロボット開発リポジトリ（ハードウェア）
 - RDC_Bipedal_Power
   - Power回路図。基板はなく回路図のみ
   - Kicad Version: 9
+- RDC_CAN_Chain
+  - CANのデイジーチェーン用基板
+  - Kicad Version: 9
 
 ## LICECNSE
 
@@ -31,6 +34,9 @@ RDC_LAB ２足歩行ロボット開発リポジトリ（ハードウェア）
     - designer: [YusukeYamasaki](https://github.com/Yusuke-Yamasaki-555)
   - RDC_Bipedal_Power
     - designer: [YusukeYamasaki](https://github.com/Yusuke-Yamasaki-555)
+  - RDC_CAN_Chain
+    - designer: [YusukeYamasaki](https://github.com/Yusuke-Yamasaki-555)
+
 
 ### maintainer
 - [open-rdc/Teams/Humanoid_Development_Team](https://github.com/orgs/open-rdc/teams/humanoid_development_team)
