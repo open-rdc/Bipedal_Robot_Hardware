@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RDC_humanoid_project")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/RDC_humanoid_project.kicad_sym")(options "")(descr ""))
+)
