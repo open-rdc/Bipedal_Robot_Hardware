@@ -1324,6 +1324,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "要修正"
+		(exclude_from_sim no)
+		(at 86.868 58.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 99 0 0 1)
+			)
+		)
+		(uuid "1cec34ff-8062-4672-8cb8-1e8bd383467a")
+	)
 	(text "Logic_GND"
 		(exclude_from_sim no)
 		(at 120.65 134.62 0)

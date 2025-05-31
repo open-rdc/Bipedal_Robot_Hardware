@@ -2071,6 +2071,32 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "要修正"
+		(exclude_from_sim no)
+		(at 74.422 74.168 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 99 0 0 1)
+			)
+		)
+		(uuid "045221f2-e5ac-41c6-aa89-f4f5385af4e2")
+	)
+	(text "修正済み"
+		(exclude_from_sim no)
+		(at 123.19 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 99 0 1)
+			)
+		)
+		(uuid "c3ad0eef-4135-4f49-9f7e-2ea697cbb357")
+	)
 	(junction
 		(at 63.5 67.31)
 		(diameter 0)
@@ -2452,6 +2478,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "board datasheet" "https://www.st.com/resource/en/user_manual/dm00499171.pdf"
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "15"
