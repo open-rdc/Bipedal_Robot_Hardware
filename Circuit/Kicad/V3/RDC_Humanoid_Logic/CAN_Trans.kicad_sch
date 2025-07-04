@@ -5,6 +5,215 @@
 	(uuid "9cc1b52b-ad99-4399-8fae-35e5b4709359")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J6"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Counter_Clockwise"
+				(at 1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0.254 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Counter_Clockwise_0_1"
+				(polyline
+					(pts
+						(xy 1.905 -0.635) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.27 -1.27) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.175 -1.27) (xy 3.175 -0.635) (xy 1.905 -1.27) (xy 3.175 -1.905) (xy 3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_02x02_Counter_Clockwise_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -1.143)
+					(end 6.35 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -1.27 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -128,156 +337,6 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1324,18 +1383,18 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "要修正"
+	(text "修正済み"
 		(exclude_from_sim no)
-		(at 86.868 58.674 0)
+		(at 83.566 65.786 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
-				(color 99 0 0 1)
+				(color 0 99 0 1)
 			)
 		)
-		(uuid "1cec34ff-8062-4672-8cb8-1e8bd383467a")
+		(uuid "0a19bc7a-1293-4a6a-947e-c52b7d04608c")
 	)
 	(text "Logic_GND"
 		(exclude_from_sim no)
@@ -1485,6 +1544,12 @@
 		(uuid "c09c1da3-cbe6-49cf-a10c-2b6f22e84fa7")
 	)
 	(junction
+		(at 91.44 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d48e70be-0876-4bd0-80af-ed632325d45f")
+	)
+	(junction
 		(at 177.8 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1515,6 +1580,16 @@
 	(no_connect
 		(at 139.7 93.98)
 		(uuid "a265df16-7ae2-4e8a-a83f-78da14a4d78e")
+	)
+	(wire
+		(pts
+			(xy 96.52 59.69) (xy 96.52 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003534ee-09f3-48aa-9d04-aeed68b588bf")
 	)
 	(wire
 		(pts
@@ -1688,6 +1763,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 68.58) (xy 110.49 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aab1a5a-fb27-4d79-8415-e562675fee91")
+	)
+	(wire
+		(pts
 			(xy 83.82 88.9) (xy 139.7 88.9)
 		)
 		(stroke
@@ -1735,16 +1820,6 @@
 			(type default)
 		)
 		(uuid "45c834ea-7a1e-45dc-a042-352bc5ac91e5")
-	)
-	(wire
-		(pts
-			(xy 91.44 68.58) (xy 110.49 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "497fb6f8-0e05-4885-bde8-a7ce69b499cb")
 	)
 	(wire
 		(pts
@@ -1835,6 +1910,16 @@
 			(type default)
 		)
 		(uuid "638c0484-7094-4452-bf6a-3c208d0ac47f")
+	)
+	(wire
+		(pts
+			(xy 76.2 60.96) (xy 74.93 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b2e58d-31fd-4689-8dec-346166bb1e48")
 	)
 	(wire
 		(pts
@@ -1958,6 +2043,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 59.69) (xy 96.52 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904a339c-aa61-4635-b262-e66ec8d3284f")
+	)
+	(wire
+		(pts
 			(xy 160.02 88.9) (xy 170.18 88.9)
 		)
 		(stroke
@@ -2058,6 +2153,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 62.23) (xy 91.44 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d345d8-5ed3-45cb-8ab3-2e205ee982ca")
+	)
+	(wire
+		(pts
 			(xy 190.5 104.14) (xy 190.5 99.06)
 		)
 		(stroke
@@ -2105,6 +2210,16 @@
 			(type default)
 		)
 		(uuid "be8c2c7a-dbbc-4cb5-999c-9d2d9cba50d2")
+	)
+	(wire
+		(pts
+			(xy 74.93 60.96) (xy 74.93 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd062e3-6172-46f5-a263-f50207951d7d")
 	)
 	(wire
 		(pts
@@ -2449,80 +2564,6 @@
 				)
 				(path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/4e0cc178-8164-45af-8b1c-3daea8e76e2d"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 91.44 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b377c73-b598-4599-9a60-b1ae56a3259f")
-		(property "Reference" "D5"
-			(at 93.98 61.2774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 93.98 63.8174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 91.44 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "32154d02-14c9-4652-a335-0d87af784f71")
-		)
-		(pin "1"
-			(uuid "d191758e-92c0-40ba-91b3-ca36295c5352")
-		)
-		(instances
-			(project ""
-				(path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
-					(reference "D5")
-					(unit 1)
-				)
-				(path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/4e0cc178-8164-45af-8b1c-3daea8e76e2d"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3093,7 +3134,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 91.44 55.88 0)
+		(at 74.93 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3101,7 +3142,7 @@
 		(dnp no)
 		(uuid "79c49c9b-aad8-4bf9-999a-b5b90180421c")
 		(property "Reference" "#PWR5V_01"
-			(at 91.44 48.26 0)
+			(at 74.93 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3109,7 +3150,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 91.44 50.8 0)
+			(at 74.93 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,7 +3158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 55.88 0)
+			(at 74.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3126,7 +3167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 55.88 0)
+			(at 74.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3135,7 +3176,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 55.88 0)
+			(at 74.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,6 +3338,150 @@
 				)
 				(path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/4e0cc178-8164-45af-8b1c-3daea8e76e2d"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
+		(at 86.36 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9228dcb5-0a55-4b1d-8c1f-69a955ee2753")
+		(property "Reference" "J6"
+			(at 83.82 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CH213K"
+			(at 83.82 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/CH213.pdf"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 86.106 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a82a3913-705c-423c-af02-c96834fdb257")
+		)
+		(pin "2"
+			(uuid "96bd8665-b293-46a1-a670-b868cb9b5d72")
+		)
+		(pin "3"
+			(uuid "d76b2ce0-dd5a-424d-931d-2bd1520256dd")
+		)
+		(instances
+			(project ""
+				(path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
+					(reference "J6")
+					(unit 1)
+				)
+				(path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/4e0cc178-8164-45af-8b1c-3daea8e76e2d"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b38dc700-8336-4526-8ffc-982b98709f77")
+		(property "Reference" "#PWR012"
+			(at 96.52 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1fd2ff1-518b-4439-b919-d2535df2c76e")
+		)
+		(instances
+			(project "RDC_Humanoid_Logic"
+				(path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/2ffb334c-541d-4787-8f08-8f2b280267fd"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/2bec3ac6-4176-417a-a2e5-e81844f01e63/4e0cc178-8164-45af-8b1c-3daea8e76e2d"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
