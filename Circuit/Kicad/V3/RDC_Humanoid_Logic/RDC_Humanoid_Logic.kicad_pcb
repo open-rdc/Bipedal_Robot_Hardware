@@ -4897,7 +4897,7 @@
 			(net 176 "unconnected-(SW3-C-Pad3)")
 			(pinfunction "C")
 			(pintype "passive")
-			(uuid "4091fc3e-8b31-4910-85ce-296902de3351")
+			(uuid "42ca7f04-b3f6-4869-8113-086ff91f59b9")
 		)
 		(embedded_fonts no)
 	)
@@ -28752,7 +28752,7 @@
 		)
 		(polygon
 			(pts
-				(xy 116.5 37.75) (xy 116.75 38.75) (xy 119 39.125) (xy 119 39.125) (xy 119 37.75)
+				(xy 116.5 37.75) (xy 116.75 38.75) (xy 119 39.125) (xy 119 37.75)
 			)
 		)
 	)

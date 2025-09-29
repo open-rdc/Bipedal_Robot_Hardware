@@ -511,7 +511,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "../../",
-      "plot": "",
+      "plot": "../Gerbers/Logic/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
