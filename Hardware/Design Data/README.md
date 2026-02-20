@@ -1,12 +1,12 @@
-# 🤖 ロボットの全体構成
+# ロボットの全体構成
 
 本ロボットは、**両脚部・胴体部・外装部**の3つの要素から構成される二足歩行ロボットである。
 
 ---
 
-# 🦿 脚部（Leg Assembly）
+# 脚部（Leg Assembly）
 
-## 🔹 HIP
+## ♢ HIP
 
 - RP_Hip-Base  
 - RP_Hip-Link-Right  
@@ -14,7 +14,7 @@
 
 ---
 
-## 🔹 Thigh
+## ♢ Thigh
 
 - RP_Thigh-Base-Right  
 - RP_Thigh-Base-Left  
@@ -25,7 +25,7 @@
 
 ---
 
-## 🔹 Calf
+## ♢ Calf
 
 - RP_Calf-Link-Cover-Inside-Right  
 - RP_Calf-Link-Cover-Inside-Left  
@@ -36,12 +36,12 @@
 
 ---
 
-# 🧍 胴体部（Body Assembly）
+# 胴体部（Body Assembly）
 
 ※ 今後記載予定
 
 ---
 
-# 🛡 外装部（Exterior Assembly）
+# 外装部（Exterior Assembly）
 
 ※ 今後記載予定
