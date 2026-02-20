@@ -1,30 +1,47 @@
-ロボットの全体構成
-  本ロボットは，両脚部，胴体部，外装部の3つの要素から構成される二足歩行ロボットである．
+# 🤖 ロボットの全体構成
 
-脚部(Leg Assembly)
-  Hip
-    RP_Hip-Base
-    RP_Hip-Link-Right
-    RP_Hip-Link-Left
-  
-  Thigh
-    RP_Thigh-Base-Right
-    RP_Thigh-Base-Left
-    RP_Thigh-Link
-    RP_Thigh-Base-Cover
-    RP_Thigh-Cover
-    RP_Thigh-Cover-Connect
-  
-  Calf
-    RP_Calf-Link-Cover-Inside-Right
-    RP_Calf-Link-Cover-Inside-Left
-    RP_Calf-Link-Cover-Outside-Right
-    RP_Calf-Link-Cover-Outside-Left
-    RP_Calf-Link
-    RP_Calf-Foot
+本ロボットは、**両脚部・胴体部・外装部**の3つの要素から構成される二足歩行ロボットである。
 
-胴体部(Body Assembly)
+---
 
+# 🦿 脚部（Leg Assembly）
 
-外装部(Exterior Assembly)
+## 🔹 HIP
 
+- RP_Hip-Base  
+- RP_Hip-Link-Right  
+- RP_Hip-Link-Left  
+
+---
+
+## 🔹 Thigh
+
+- RP_Thigh-Base-Right  
+- RP_Thigh-Base-Left  
+- RP_Thigh-Link  
+- RP_Thigh-Base-Cover  
+- RP_Thigh-Cover  
+- RP_Thigh-Cover-Connect  
+
+---
+
+## 🔹 Calf
+
+- RP_Calf-Link-Cover-Inside-Right  
+- RP_Calf-Link-Cover-Inside-Left  
+- RP_Calf-Link-Cover-Outside-Right  
+- RP_Calf-Link-Cover-Outside-Left  
+- RP_Calf-Link  
+- RP_Calf-Foot  
+
+---
+
+# 🧍 胴体部（Body Assembly）
+
+※ 今後記載予定
+
+---
+
+# 🛡 外装部（Exterior Assembly）
+
+※ 今後記載予定
